@@ -2,7 +2,7 @@
 // Problem 13: Absolute Value (use ternary operator)
 // Write a program to find the absolute value of a number.
 // Hint: If number is negative, multiply by -1.
-// Sample Input/Output:
 
-// Input: -8 → Output: 8
-// Input: 12 → Output: 12
+let num=-9;
+let value= num<0? num*-1 : num
+console.log(value)

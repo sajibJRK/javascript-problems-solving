@@ -5,3 +5,15 @@
 
 // Input: 7 → Output: Odd & Positive
 // Input: -5 → Output: Odd but Not Positive
+let num= -9 ;
+if(!(num%2==0)){
+    if(num>0){
+        console.log("Odd & Positive")
+    }
+    else{
+        console.log("Odd but Not Positive")
+    }
+}
+else{
+    console.log("number is even")
+}
